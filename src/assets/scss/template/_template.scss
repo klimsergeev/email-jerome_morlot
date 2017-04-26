@@ -8,52 +8,31 @@ html,
   background: #f3f3f3 !important;
 }
 
-.container.header {
-  background: #f3f3f3;
-}
+/* geek */
 
-.body-drip {
-  border-top: 8px solid #663399;
-}
+/*table th,
+table td {
+  border: 1px solid #ccc;
+}*/
 
-// Full Width Headers
-.header {
-  background: #8a8a8a;
-}
+/* preheader classes */
 
-.header .columns {
-  padding-bottom: 0;
-}
-
-.header p {
-  color: #fff;
-  padding-top: 15px;
-}
-
-.header .wrapper-inner {
-  padding: 20px;
-}
-
-.header .container {
+.container.preheader {
   background: transparent;
 }
 
-// Social Media
-table.button.facebook table td {
-  background: #3B5998 !important;
-  border-color: #3B5998;
+div.grey-text p,
+div.grey-text p a, {
+  font-size: 11px !important;
+  color: #777777 !important;
 }
 
-table.button.twitter table td {
-  background: #1daced !important;
-  border-color: #1daced;
+div.grey-text p a {
+  border-bottom: 1px solid rgba(0,0,0,.16);
 }
 
-table.button.google table td {
-  background: #DB4A39 !important;
-  border-color: #DB4A39;
-}
-
-.wrapper.secondary {
-  background: #f3f3f3;
+div.grey-text .invisible {
+  font-size: inherit !important;
+  color: inherit !important;
+  visibility: none;
 }
