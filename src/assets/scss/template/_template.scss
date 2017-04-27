@@ -8,19 +8,59 @@ html,
   background: #f3f3f3 !important;
 }
 
-/* geek */
+// FONTS
+
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700,900&subset=latin-ext');
+
+// GEEK
 
 /*table th,
 table td {
-  border: 1px solid #ccc;
+  border: 1px solid red;
+}*/
+
+
+// SPECIAL PADDING
+
+/* use class="collapse" instead of horizontal collapse */
+
+
+
+// TYPOGRAPHY
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+	-webkit-font-smoothing: antialiased;
 }
-*/
-/* padding special occasions */
 
-/* preheader classes */
+h1 strong,
+h2 strong,
+h3 strong,
+h4 strong,
+h1 strong {
+	font-weight: 900;
+}
 
-.container.preheader {
+p.bullet {
+	text-indent: -22px;
+	padding: 0 0 0 22px !important;
+}
+
+// PREHEADER
+
+.container.preheader,
+.container.postfooter {
   background: transparent;
+}
+
+h6.highlight {
+	color: #e42;
 }
 
 div.grey-text p,
@@ -39,8 +79,31 @@ div.grey-text .invisible {
   visibility: none;
 }
 
-hr.hr {
-	color: #f3f3f3 !important;
-	background: #f3f3f3 !important;
-	background-color: #f3f3f3 !important; 
+// HEADER
+
+h1.title{
+	letter-spacing: 0;
+}
+
+// FEATURED
+
+.inverse-bg table th {
+	background: $primary-color !important;
+}
+
+div.featured-text p,
+div.featured-text h5 {
+	color: #fff;
+}
+
+div.featured-text p {
+	border-bottom: 1px solid rgba(255,255,255,.32);
+}
+
+// FOOTER
+
+div.footer-text p {
+	color: #101010;
+	font-size: 14px;
+	line-height: 1.2em;
 }
