@@ -2,7 +2,41 @@
 	
 	<container>
 
-		<row><columns>list-options</columns></row>
+		<row>
+			<columns>
+				Other listings
+			</columns>
+		</row>
+
+		<row>
+
+			{{#repeat 2}}
+
+				<columns small="12" large="6">
+					
+					<row>
+						<columns>
+							<img src="{{assets}}assets/img/image-placeholder_828x552.jpg">
+						</columns>
+					</row>
+
+					<row>
+						<columns>
+							<p>Lorem ipsum</p> <p>dolor sit amet</p> <p>consectetur adipisicing</p> <p>elit, sed do eiusmod</p>	<p>tempor incididunt</p> <p>ut labore et dolore</p>
+						</columns>
+					</row>
+
+					<row>
+						<columns>
+								<button class="secondary small-expanded radius" href="#">More info</button>
+						</columns>
+					</row>
+
+				</columns>
+
+			{{/repeat}}
+
+		</row>
 
 	</container>
 

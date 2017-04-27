@@ -13,7 +13,9 @@ html,
 /*table th,
 table td {
   border: 1px solid #ccc;
-}*/
+}
+*/
+/* padding special occasions */
 
 /* preheader classes */
 
@@ -35,4 +37,10 @@ div.grey-text .invisible {
   font-size: inherit !important;
   color: inherit !important;
   visibility: none;
+}
+
+hr.hr {
+	color: #f3f3f3 !important;
+	background: #f3f3f3 !important;
+	background-color: #f3f3f3 !important; 
 }
