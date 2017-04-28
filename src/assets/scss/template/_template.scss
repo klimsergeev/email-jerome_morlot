@@ -8,6 +8,18 @@ html,
   background: #f3f3f3 !important;
 }
 
+// REMOVE BLUE LINKS
+
+ 
+a[x-apple-data-detectors] {
+    color: inherit !important;
+    text-decoration: none !important;
+    font-size: inherit !important;
+    font-family: inherit !important;
+    font-weight: inherit !important;
+    line-height: inherit !important;
+}
+
 // FONTS
 
 @import url('https://fonts.googleapis.com/css?family=Lato:400,700,900&subset=latin-ext');
@@ -24,7 +36,25 @@ table td {
 
 /* use class="collapse" instead of horizontal collapse */
 
+.wrapper.collapse-bottom th .columns th,
+.wrapper.collapse-bottom th {
+  padding-bottom: 0;
+}
 
+
+// COMMON
+
+.inverse-bg table th {
+	background: $primary-color !important;
+}
+
+.inverse-bg-darker table th {
+	background: #024 !important;
+}
+
+.un-inverse-bg table th {
+	background: #fff !important;
+}
 
 // TYPOGRAPHY
 
@@ -50,6 +80,13 @@ h1 strong {
 p.bullet {
 	text-indent: -22px;
 	padding: 0 0 0 22px !important;
+}
+
+hr {
+  box-shadow: none !important;
+  border-style: solid;
+  border-color: #ffffff !important;
+  max-width: 96% !important;
 }
 
 // PREHEADER
@@ -87,13 +124,15 @@ h1.title{
 
 // FEATURED
 
-.inverse-bg table th {
-	background: $primary-color !important;
-}
 
 div.featured-text p,
 div.featured-text h5 {
 	color: #fff;
+}
+
+a.featured-text {
+	color: #fff;
+	border-bottom: 1px solid rgba(255,255,255,.32);
 }
 
 div.featured-text p {
@@ -108,8 +147,15 @@ div.bullets-text p.bullet {
 
 // FOOTER
 
-div.footer-text p {
+div.footer-text p,
+div.footer-text p a {
 	color: #fff;
-	font-size: 14px;
-	line-height: 1.2em;
+	font-size: 13px;
+	line-height: 1.3em;
 }
+
+div.footer-text p a {
+	border-bottom: 1px solid rgba(255,255,255,.32);
+}
+
+
