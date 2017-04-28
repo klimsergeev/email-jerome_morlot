@@ -100,10 +100,16 @@ div.featured-text p {
 	border-bottom: 1px solid rgba(255,255,255,.32);
 }
 
+// BULLETS
+
+div.bullets-text p.bullet {
+	color: #fff;
+}
+
 // FOOTER
 
 div.footer-text p {
-	color: #101010;
+	color: #fff;
 	font-size: 14px;
 	line-height: 1.2em;
 }
