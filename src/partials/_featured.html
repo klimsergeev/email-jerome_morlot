@@ -4,7 +4,7 @@
 
 		<row class="collapse">
 			<columns small="12">
-				<img src="{{root}}assets/img/A2204925_01.jpg">
+				<a href="http://www.jeromemerlot.com/" target="_blank"><img src="{{root}}assets/img/A2204925_01.jpg" mc:edit="hero-img" mc:label=“Featured-hero-image”></a>
 			</columns>
 		</row>
 
@@ -13,7 +13,7 @@
 	<container class="inverse-bg">
 
 		<row>
-			<columns small="12" large="6">
+			<columns small="12" large="6" mc:edit="featured-detail" mc:label=“Featured-detail”>
 				<div class="featured-text"><h5><strong>831 10th Street, Miami Beach</strong></h5></div>
 				<div class="featured-text"><p>Unit #102</p></div>
 				<div class="featured-text"><p>1,080 sqft</p></div>
@@ -24,14 +24,14 @@
 				
 				<row>
 					<columns>
-						<div class="featured-text"><h5 class="text-center"><strong>Need more information?</strong></h5></div>
+						<div class="featured-text" mc:edit="more-info-title" mc:label=“Title”><h5 class="text-center"><strong>Need more information?</strong></h5></div>
 					</columns>
 				</row>
 
 				<row>
-					<columns>
-						<button class="secondary expanded radius" href="#">Call me<br>1 (786) 564 77 90</button>
-						<p class="text-center"><small><a class="featured-text" href="#">Send to a friend</a> &bull; <a class="featured-text" href="#">Share on Facebook</a></small></p>
+					<columns mc:edit="call-me-button" mc:label=“call-me-button”>
+						<button class="secondary expanded radius" href="tel:17865647790" target="_blank">Call me<br>1 (786) 564 77 90</button>
+						<p class="text-center"><small><a class="featured-text" href="*|FORWARD|*" target="_blank">Send to a friend</a> &bull; <a class="featured-text" href="https://www.facebook.com/sharer/sharer.php?u=*|ARCHIVE|*&display=popup" target="_blank">Share on Facebook</a></small></p>
 					</columns>
 				</row>
 

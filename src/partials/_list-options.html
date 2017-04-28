@@ -3,7 +3,7 @@
 	<container>
 
 		<row>
-			<columns>
+			<columns mc:edit="listings-heading" mc:label="listing-heading">
 				<spacer size="24"></spacer>
 				<h4 class="text-center"><strong>Jerome exclusive listing</strong></h4>
 			</columns>
@@ -11,7 +11,7 @@
 
 	</container>
 
-	<container class="inverse-bg">
+	<container class="inverse-bg" mc:repeatable>
 
 		<row>
 
@@ -20,13 +20,13 @@
 					<spacer size="16"></spacer>
 					
 					<row>
-						<columns>
-							<img src="{{assets}}assets/img/A2204925_06.jpg">
+						<columns mc:edit="listing-1-image" mc:label="listing-1-image">
+							<a href="http://www.jeromemerlot.com/" target="_blank"><img src="{{assets}}assets/img/A2204925_06.jpg"></a>
 						</columns>
 					</row>
 
 					<row>
-						<columns>
+						<columns mc:edit="listing-1-detail" mc:label="listing-1-detail">
 							
 							<div class="featured-text"><h5><strong>831 10th Street, Miami Beach</strong></h5></div>
 							<div class="featured-text"><p>Unit #102</p></div>
@@ -38,9 +38,9 @@
 					</row>
 
 					<row>
-						<columns>
+						<columns mc:edit="listing-1-button" mc:label="listing-1-button">
 
-							<button class="secondary expanded radius" href="#">More info</button>
+							<button class="secondary expanded radius" href="http://www.jeromemerlot.com/" target="_blank">More info</button>
 
 						</columns>
 
@@ -55,13 +55,13 @@
 					<spacer size="16"></spacer>
 					
 					<row>
-						<columns>
-							<img src="{{assets}}assets/img/A2204925_02.jpg">
+						<columns mc:edit="listing-2-image" mc:label="listing-2-image">
+							<a href="http://www.jeromemerlot.com/" target="_blank"><img src="{{assets}}assets/img/A2204925_02.jpg"></a>
 						</columns>
 					</row>
 
 					<row>
-						<columns>
+						<columns mc:edit="listing-2-detail" mc:label="listing-2-detail">
 							
 							<div class="featured-text"><h5><strong>831 10th Street, Miami Beach</strong></h5></div>
 							<div class="featured-text"><p>Unit #102</p></div>
@@ -73,9 +73,9 @@
 					</row>
 
 					<row>
-						<columns>
+						<columns mc:edit="listing-2-button" mc:label="listing-2-button">
 
-							<button class="secondary expanded radius" href="#">More info</button>
+							<button class="secondary expanded radius" href="http://www.jeromemerlot.com/" target="_blank">More info</button>
 
 						</columns>
 						
