@@ -58,28 +58,12 @@ table td {
 
 // TYPOGRAPHY
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-a {
-	-webkit-font-smoothing: antialiased;
-}
-
 h1 strong,
 h2 strong,
 h3 strong,
 h4 strong,
 h1 strong {
 	font-weight: 900;
-}
-
-p.bullet {
-	text-indent: -22px;
-	padding: 0 0 0 22px !important;
 }
 
 hr {
@@ -110,12 +94,6 @@ div.grey-text p a {
   border-bottom: 1px solid rgba(0,0,0,.16);
 }
 
-div.grey-text .invisible {
-  font-size: inherit !important;
-  color: inherit !important;
-  visibility: none;
-}
-
 // HEADER
 
 h1.title{
@@ -123,7 +101,6 @@ h1.title{
 }
 
 // FEATURED
-
 
 div.featured-text p,
 div.featured-text h5 {
@@ -143,6 +120,8 @@ div.featured-text p {
 
 div.bullets-text p.bullet {
 	color: #fff;
+  text-indent: -22px;
+  padding: 0 0 0 22px !important;
 }
 
 // FOOTER
