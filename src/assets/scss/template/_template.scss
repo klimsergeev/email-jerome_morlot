@@ -225,26 +225,43 @@ a.twitter,
 a.pinterest,
 a.instagram {
   font-weight: bold;
-  border-radius: 3px;
+  border-radius: 4px;
   color: white !important;
   border: none !important;
   text-decoration: none !important;
-  padding: 3px 6px 4px 6px;
+  padding: 5px 8px 6px 8px !important;
 }
 
 a.facebook {
-  background: #3b5998;
+  background: #3b5998 !important;
 }
 
 a.twitter {
-  background: #1da1f2;
+  background: #1da1f2 !important;
 }
 
 a.pinterest {
-  background: #bd081c;
-
+  background: #bd081c !important;
 }
+
 a.instagram {
-  background: #101010;
-
+  background: #101010 !important;
 }
+
+p.social {
+  padding-bottom: 0 !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
