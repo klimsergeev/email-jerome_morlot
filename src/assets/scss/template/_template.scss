@@ -63,6 +63,10 @@ p, a, h1, h2, h3, h4, h5 {
 
 // TYPOGRAPHY
 
+div p a.url {
+  text-decoration: underline !important;
+}
+
 h1 strong,
 h2 strong,
 h3 strong,
