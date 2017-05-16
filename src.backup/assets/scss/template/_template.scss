@@ -1,0 +1,271 @@
+// These are the styles to make some of the templates look extra nice.
+// Feel free to remove these styles for production!
+
+// Body Styles 
+body,
+html, 
+.body {
+  background: #f3f3f3 !important;
+}
+
+// REMOVE BLUE LINKS
+
+ 
+a[x-apple-data-detectors] {
+    color: inherit !important;
+    text-decoration: none !important;
+    font-size: inherit !important;
+    font-family: inherit !important;
+    font-weight: inherit !important;
+    line-height: inherit !important;
+}
+
+// FONTS
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700,900');
+
+
+// GEEK
+
+// table th,
+// table td {
+//   border: 1px solid red;
+// }
+
+p, a, h1, h2, h3, h4, h5 {
+  -webkit-font-smoothing: antialiased;
+}
+
+
+// SPECIAL PADDING
+
+// use class="collapse" instead of horizontal collapse
+
+.wrapper.collapse-bottom th .columns th,
+.wrapper.collapse-bottom th {
+  padding-bottom: 0;
+}
+
+
+// COMMON
+
+.inverse-bg table th {
+	background: $primary-color !important;
+}
+
+.inverse-bg-darker table th {
+	background: #024 !important;
+}
+
+.un-inverse-bg table th {
+	background: #fff !important;
+}
+
+// TYPOGRAPHY
+
+div p a.url {
+  text-decoration: underline !important;
+}
+
+h1 strong,
+h2 strong,
+h3 strong,
+h4 strong,
+h1 strong {
+	font-weight: 900;
+}
+
+h1.light,
+h2.light,
+h3.light,
+h4.light,
+h1.light {
+  font-weight: 300;
+  letter-spacing: 2px !important;
+}
+
+hr {
+  box-shadow: none !important;
+  border-style: solid;
+  border-color: #f3f3f3 !important;
+  max-width: 96% !important;
+}
+
+// font-size: 10 ... 16
+
+div.text-15 p,
+div.text-15 p a {
+  font-size: 15px !important;
+}
+
+div.text-14 p,
+div.text-14 p a {
+  font-size: 14px !important;
+}
+
+div.text-13 p,
+div.text-13 p a {
+  font-size: 13px !important;
+}
+
+div.text-12 p,
+div.text-12 p a {
+  font-size: 12px !important;
+}
+
+div.text-11 p,
+div.text-11 p a {
+  font-size: 11px !important;
+}
+
+div.text-10 p,
+div.text-10 p a {
+  font-size: 10px !important;
+}
+
+// PREHEADER
+
+.container.preheader,
+.container.postfooter {
+  background: transparent;
+}
+
+h6.highlight {
+	color: #e42;
+}
+
+div.grey-text p,
+div.grey-text p a, {
+  font-size: 11px !important;
+  color: #777777 !important;
+}
+
+div.grey-text p a {
+  border-bottom: 1px solid rgba(0,0,0,.16);
+}
+
+// HEADER
+
+h1.title{
+	letter-spacing: 0;
+}
+
+// FEATURED
+
+div.featured-text p,
+div.featured-text h5 {
+	color: #fff;
+}
+
+a.featured-text {
+	color: #fff;
+	border-bottom: 1px solid rgba(255,255,255,.32);
+}
+
+div.featured-text p {
+	border-bottom: 1px solid rgba(255,255,255,.32);
+}
+
+// BULLETS
+
+div.bullets-text p.bullet {
+	color: #fff;
+  text-indent: -22px;
+  padding: 0 0 0 22px !important;
+}
+
+// FOOTER
+
+div.footer-text p,
+div.footer-text p a {
+	color: #fff;
+	font-size: 13px;
+	line-height: 1.3em;
+}
+
+div.footer-text p a {
+	border-bottom: 1px solid rgba(255,255,255,.32);
+}
+
+.navigation {
+  padding-top: 16px !important;
+  padding-bottom: 8px !important;
+}
+
+// BLOG
+
+.divider-v {
+  width: 0px !important;
+  padding: 0 !important;
+  border-collapse: collapse;
+  border: 1px solid #f3f3f3;
+}
+
+div.article p,
+div.article p a {
+  text-align: justify;
+  line-height: 1.8em;
+}
+
+div.inverse-text p,
+div.inverse-text h5,
+div.inverse-text p a, {
+  color: #fff;
+}
+
+div.article-hr {
+  background: $primary-color;
+  width: 92px;
+  height: 2px;
+}
+
+// BLOG BUTTONS
+
+
+// SOCIAL BUTTONS
+
+a.facebook,
+a.twitter,
+a.pinterest,
+a.instagram {
+  font-weight: bold;
+  border-radius: 4px;
+  color: white !important;
+  border: none !important;
+  text-decoration: none !important;
+  padding: 5px 8px 6px 8px !important;
+}
+
+a.facebook {
+  background: #3b5998 !important;
+}
+
+a.twitter {
+  background: #1da1f2 !important;
+}
+
+a.pinterest {
+  background: #bd081c !important;
+}
+
+a.instagram {
+  background: #101010 !important;
+}
+
+p.social {
+  padding-bottom: 0 !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
