@@ -5,7 +5,7 @@
 body,
 html, 
 .body {
-  background: #f3f3f3 !important;
+  background: url('https://gallery.mailchimp.com/dbbf8923192d53ee381cf24b1/images/d6cc4072-d8f7-4394-9ad2-91c4b642a5a9.png') #fff !important;
 }
 
 // REMOVE BLUE LINKS
@@ -49,12 +49,16 @@ p, a, h1, h2, h3, h4, h5 {
 
 // COMMON
 
-.inverse-bg table th {
-	background: $primary-color !important;
+.grey-bg table th {
+	background: #888 !important;
 }
 
 .inverse-bg-darker table th {
 	background: #024 !important;
+}
+
+.inverse-bg table th {
+  background: #025 !important;
 }
 
 .un-inverse-bg table th {
@@ -65,6 +69,10 @@ p, a, h1, h2, h3, h4, h5 {
 
 div p a.url {
   text-decoration: underline !important;
+}
+
+p.text-white {
+  color: $white;
 }
 
 h1 strong,
@@ -136,7 +144,7 @@ h6.highlight {
 
 div.grey-text p,
 div.grey-text p a, {
-  font-size: 11px !important;
+  font-size: 9px !important;
   color: #777777 !important;
 }
 

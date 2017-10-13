@@ -65,6 +65,17 @@ p, a, h1, h2, h3, h4, h5 {
 	background: #fff !important;
 }
 
+// outlined sections
+
+.outliner {
+  border: 1px solid #025;
+  border-radius: 8px;
+}
+
+.outliner p {
+  padding: 8px 8px 0 8px;
+}
+
 // TYPOGRAPHY
 
 div p a.url {
@@ -95,7 +106,7 @@ h1.light {
 hr {
   box-shadow: none !important;
   border-style: solid;
-  border-color: #f3f3f3 !important;
+  border-color: #024 !important;
   max-width: 96% !important;
 }
 
