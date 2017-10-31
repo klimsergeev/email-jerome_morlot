@@ -65,16 +65,7 @@ p, a, h1, h2, h3, h4, h5 {
 	background: #fff !important;
 }
 
-// outlined sections
 
-.outliner {
-  border: 1px solid #025;
-  border-radius: 8px;
-}
-
-.outliner p {
-  padding: 8px 8px 0 8px;
-}
 
 // TYPOGRAPHY
 
@@ -105,9 +96,14 @@ h1.light {
 
 hr {
   box-shadow: none !important;
-  border-style: solid;
+  border-style: dotted;
+  border-bottom: none !important;
   border-color: #024 !important;
   max-width: 96% !important;
+}
+
+hr.shorter {
+  max-width: 64% !important;
 }
 
 // font-size: 10 ... 16
@@ -211,6 +207,10 @@ div.footer-text p a {
   padding-bottom: 8px !important;
 }
 
+.barre {
+  border-left: 2px solid rgba(255,255,255,.32) !important;
+}
+
 // BLOG
 
 .divider-v {
@@ -236,6 +236,16 @@ div.article-hr {
   background: $primary-color;
   width: 92px;
   height: 2px;
+}
+
+div.outliner {
+  border: 1px solid $primary-color !important;
+  border-radius: $global-radius / 2;
+}
+
+div.outliner p {
+  padding-left: 8px;
+  padding-right: 8px;
 }
 
 // BLOG BUTTONS
